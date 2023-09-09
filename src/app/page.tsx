@@ -51,7 +51,7 @@ export default function Home() {
           </a>
         </h1>
 
-        <p className="mt-6 text-white text-2xl text-center">
+        <p className="mt-6 text-white text-1xl text-center">
           Sou desenvolvedor Front-end e Back-end
         </p>
 
