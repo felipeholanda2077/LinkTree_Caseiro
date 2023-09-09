@@ -1,5 +1,5 @@
 .buttons {
-  margin-top: 10px;
+  margin-top: 0px;
   text-align: center;
   border-radius:30px;
   margin-bottom: -120px;
@@ -7,7 +7,7 @@
 }
 
 .imag {
-  margin-top: -10px;
+  margin-top: -20px;
   text-align: center;
   border-radius: 100%;
 }
@@ -20,7 +20,7 @@ $borderW: 2px;
   $numOfBlobs: 3;
   z-index: 0;
   position: relative;
-  padding: 20px 30px;
+  padding: 15px 30px;
   margin-bottom: 0px;
   text-align: center;
   text-transform: uppercase;
