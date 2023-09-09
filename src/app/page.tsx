@@ -65,7 +65,7 @@ export default function Home() {
             
               <div className="buttons">
               <a href="https://www.linkedin.com/in/felipe-holandadev/" target="_blank" rel="noopener noreferrer">
-                <button className="blob-btn">
+                <button className="blob-btn w-full h-full">
 
                   <FontAwesomeIcon icon={faLinkedin} size="xl" /> Linkedin
                 
@@ -97,7 +97,7 @@ export default function Home() {
             
               <div className="buttons">
               <a href="https://github.com/felipeholanda2077" target="_blank" rel="noopener noreferrer">
-                <button className="blob-btn">
+                <button className="blob-btn w-full h-full">
                   <FontAwesomeIcon icon={faGithub} size="xl" /> Git Hub
                   <span className="blob-btn__inner">
                     <span className="blob-btn__blobs">
@@ -125,9 +125,9 @@ export default function Home() {
           </li>
           <li>
             
-              <div className="buttons">
+              <div className="buttons ">
               <a href="" target="_blank" rel="noopener noreferrer">
-                <button className="blob-btn">
+                <button className="blob-btn w-full h-full">
                   <FontAwesomeIcon icon={faEnvelope} size="xl" /> E-Mail
                   <span className="blob-btn__inner">
                     <span className="blob-btn__blobs">
