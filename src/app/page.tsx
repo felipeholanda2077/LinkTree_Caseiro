@@ -62,36 +62,41 @@ export default function Home() {
 
         <ul className="flex flex-row grid grid-rows-3 grid-flow-col">
           <li>
-            <a href="https://www.linkedin.com/in/felipe-holandadev/" target="_blank" rel="noopener noreferrer">
+            
               <div className="buttons">
+              <a href="https://www.linkedin.com/in/felipe-holandadev/" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn">
-                  <FontAwesomeIcon icon={faLinkedin} size="xl" /> Linkedin
-                  <span className="blob-btn__inner">
-                    <span className="blob-btn__blobs">
-                      <span className="blob-btn__blob"></span>
-                      <span className="blob-btn__blob"></span>
-                      <span className="blob-btn__blob"></span>
-                      <span className="blob-btn__blob"></span>
-                    </span>
-                  </span>
-                </button>
-                <br />
 
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                  <defs>
-                    <filter id="goo">
-                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
-                      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            </a>
+                  <FontAwesomeIcon icon={faLinkedin} size="xl" /> Linkedin
+                
+                <span className="blob-btn__inner">
+                  <span className="blob-btn__blobs">
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                  </span>
+                </span>
+              </button>
+              </a>
+              <br />
+
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
           </li>
           <li>
-            <a href="https://github.com/felipeholanda2077" target="_blank" rel="noopener noreferrer">
+            
               <div className="buttons">
+              <a href="https://github.com/felipeholanda2077" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn">
                   <FontAwesomeIcon icon={faGithub} size="xl" /> Git Hub
                   <span className="blob-btn__inner">
@@ -103,6 +108,7 @@ export default function Home() {
                     </span>
                   </span>
                 </button>
+                </a>
                 <br />
 
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -115,11 +121,12 @@ export default function Home() {
                   </defs>
                 </svg>
               </div>
-            </a>
+            
           </li>
           <li>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            
               <div className="buttons">
+              <a href="" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn">
                   <FontAwesomeIcon icon={faEnvelope} size="xl" /> E-Mail
                   <span className="blob-btn__inner">
@@ -131,6 +138,7 @@ export default function Home() {
                     </span>
                   </span>
                 </button>
+                </a>
                 <br />
 
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -143,7 +151,7 @@ export default function Home() {
                   </defs>
                 </svg>
               </div>
-            </a>
+            
           </li>
         </ul>
 
