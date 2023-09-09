@@ -4,10 +4,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faCircleDown } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import variables from './variables.module.scss'
 import '../app/scss/Button.scss'
 import Button from './components/button'
+import Link from 'next/link'
 
 
 
@@ -62,22 +64,22 @@ export default function Home() {
 
         <ul className="flex flex-row grid grid-rows-3 grid-flow-col">
           <li>
-            
-              <div className="buttons">
+
+            <div className="buttons">
               <a href="https://www.linkedin.com/in/felipe-holandadev/" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn w-full h-full">
 
                   <FontAwesomeIcon icon={faLinkedin} size="xl" /> Linkedin
-                
-                <span className="blob-btn__inner">
-                  <span className="blob-btn__blobs">
-                    <span className="blob-btn__blob"></span>
-                    <span className="blob-btn__blob"></span>
-                    <span className="blob-btn__blob"></span>
-                    <span className="blob-btn__blob"></span>
+
+                  <span className="blob-btn__inner">
+                    <span className="blob-btn__blobs">
+                      <span className="blob-btn__blob"></span>
+                      <span className="blob-btn__blob"></span>
+                      <span className="blob-btn__blob"></span>
+                      <span className="blob-btn__blob"></span>
+                    </span>
                   </span>
-                </span>
-              </button>
+                </button>
               </a>
               <br />
 
@@ -94,8 +96,8 @@ export default function Home() {
 
           </li>
           <li>
-            
-              <div className="buttons">
+
+            <div className="buttons">
               <a href="https://github.com/felipeholanda2077" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn w-full h-full">
                   <FontAwesomeIcon icon={faGithub} size="xl" /> Git Hub
@@ -108,24 +110,24 @@ export default function Home() {
                     </span>
                   </span>
                 </button>
-                </a>
-                <br />
+              </a>
+              <br />
 
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                  <defs>
-                    <filter id="goo">
-                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
-                      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
           </li>
           <li>
-            
-              <div className="buttons ">
+
+            <div className="buttons ">
               <a href="" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn w-full h-full">
                   <FontAwesomeIcon icon={faEnvelope} size="xl" /> E-Mail
@@ -138,21 +140,22 @@ export default function Home() {
                     </span>
                   </span>
                 </button>
-                </a>
-                <br />
+              </a>
+              <br />
 
-                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                  <defs>
-                    <filter id="goo">
-                      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
-                      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
-                      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
-                    </filter>
-                  </defs>
-                </svg>
-              </div>
-            
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+
           </li>
+
         </ul>
 
         <a href="#">
@@ -183,6 +186,15 @@ export default function Home() {
           </form>
         </div>
 
+
+        <a
+          href="https://wa.me/5511953528042?text=Adorei%20seus%20trabalhos%20e%20gostaria%20de%20saber%20mais%20sobre%20voc%C3%AA%20e%20seus%20servi%C3%A7os, poderia me chamar no whatsapp? "
+          className="fixed w-16 h-16 bottom-4 right-4 bg-green-500 text-white rounded-full flex items-center justify-center text-2xl shadow-md z-10"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faWhatsapp} size="xl" style={{color: "#ffffff",}} />
+        </a>
 
 
         <a href="#final"></a>
