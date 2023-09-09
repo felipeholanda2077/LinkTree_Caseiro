@@ -36,7 +36,7 @@ export default function Home() {
           width={250}
           height={250}
           border-radius={50}
-          className="border-2, border-radius-50, rounded-full mb-4"
+          className="border-2 border-radius-50 rounded-full mb-4 imag"
         />
 
         <h1 className="sub-titulo text-white text-4xl font-bold text-center">
@@ -51,7 +51,7 @@ export default function Home() {
           </a>
         </h1>
 
-        <p className="mt-6 text-white text-1xl text-center">
+        <p className="mt-6 text-white text-1 text-center">
           Sou desenvolvedor Front-end e Back-end
         </p>
 
