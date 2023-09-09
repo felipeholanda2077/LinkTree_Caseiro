@@ -155,7 +155,7 @@ export default function Home() {
 
 
         <div className="bg-white p-8 mt-5 rounded-lg shadow-lg w-full max-w-md">
-          <h1 className="text-2xl font-semibold mb-4">Formulário De Contato</h1>
+          <h1 className="text-2xl font-semibold mb-4 text-black">Formulário De Contato</h1>
           <form>
             <div className="mb-4">
               <label htmlFor="nome" className="block text-gray-600 font-medium">Nome</label>
