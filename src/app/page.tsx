@@ -33,8 +33,8 @@ export default function Home() {
         <Image
           src="/images/Eu.jpeg"
           alt="Felipe Holanda"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           border-radius={50}
           className="border-2 border-radius-50 rounded-full mb-4 imag"
         />
