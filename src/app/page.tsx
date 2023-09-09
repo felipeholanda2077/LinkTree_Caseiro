@@ -52,7 +52,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-white text-1 text-center">
-          Sou desenvolvedor Front-end e Back-end
+          Desenvolvedor Front-end e Back-end
         </p>
 
         <p className="links-top text-white text-1xl text-center">
