@@ -170,15 +170,15 @@ export default function Home() {
           <form>
             <div className="mb-4">
               <label htmlFor="nome" className="block text-gray-600 font-medium">Nome</label>
-              <input type="text" id="nome" name="nome" className="border border-gray-300 p-2 w-full rounded"></input>
+              <input type="text" id="nome" name="nome" className="border border-gray-300 p-2 w-full rounded text-black"></input>
             </div>
             <div className="mb-4">
               <label htmlFor="email" className="block text-gray-600 font-medium">Email</label>
-              <input type="email" id="email" name="email" className="border border-gray-300 p-2 w-full rounded"></input>
+              <input type="email" id="email" name="email" className="border border-gray-300 p-2 w-full rounded text-black"></input>
             </div>
             <div className="mb-4">
               <label htmlFor="mensagem" className="block text-gray-600 font-medium">Mensagem</label>
-              <textarea id="mensagem" name="mensagem" className="border border-gray-300 p-2 w-full rounded"></textarea>
+              <textarea id="mensagem" name="mensagem" className="border border-gray-300 p-2 w-full rounded text-black"></textarea>
             </div>
             <div className="flex justify-end">
               <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Enviar</button>
