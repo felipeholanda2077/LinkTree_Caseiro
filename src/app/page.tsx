@@ -239,7 +239,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Todos os direitos reservados ® – Felipe Holanda – 2023
+              Todos os direitos reservados ® – Felipe Holanda – 2024
             </a>
           </footer>
         </div>
