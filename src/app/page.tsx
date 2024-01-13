@@ -62,10 +62,10 @@ export default function Home() {
         </p>
 
 
-        <ul className="flex flex-row grid grid-rows-3">
+        <ul className="flex flex-row grid grid-rows-3 mt-5">
           <li>
 
-            <div className="buttons mr-2 ml-2">
+            <div className="buttons">
               <a href="https://www.linkedin.com/in/felipe-holandadev/" target="_blank" rel="noopener noreferrer">
                 <button className="blob-btn w-full h-full">
 
