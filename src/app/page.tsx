@@ -62,7 +62,7 @@ export default function Home() {
         </p>
 
 
-        <ul className="flex flex-row grid grid-rows-3 grid-flow-col">
+        <ul className="flex flex-row grid grid-rows-3 grid-flow-col mr-2 ml-2">
           <li>
 
             <div className="buttons">
